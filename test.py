@@ -1,4 +1,4 @@
-from wallet import Wallet
+from wallet import Wallet, incrementar_saldo
 
 def test_getbalance():
     obj = Wallet(0)
