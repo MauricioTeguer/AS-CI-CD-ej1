@@ -1,0 +1,11 @@
+name: Primer workflow
+
+on: push
+
+jobs:
+ test:
+  runs-on: ubuntu-latest
+  steps:
+   - uses: actions/checkout@v4
+   - run: pip install pytest
+   - run: pytest test.py 
