@@ -12,5 +12,5 @@ class Wallet:
         self.balance = self.balance - val
     
     def incrementar_saldo(saldo):
-    return saldo + 1000
+        return saldo + 1000
 
